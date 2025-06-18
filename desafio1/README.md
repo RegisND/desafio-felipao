@@ -41,7 +41,7 @@ desafio-felipao/
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/RegisND/desafio-felipao.git
+git clone https://github.com/seu-usuario/desafio-felipao.git
 cd desafio-felipao
 ```
 
