@@ -1,0 +1,17 @@
+{
+  "name": "desafio2",
+  "version": "1.0.0",
+  "description": "Desafio do Felipão - Calculadora de Rankeadas",
+  "main": "src/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js"
+  },
+  "keywords": ["nodejs", "javascript", "desafio", "bootcamp", "heroi"],
+  "author": "Reginaldo Dias",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
