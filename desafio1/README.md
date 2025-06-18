@@ -43,15 +43,17 @@ desafio-felipao/
 ```bash
 git clone https://github.com/RegisND/desafio-felipao.git
 cd desafio-felipao
+```
 
 2. Instale as dependências:
 ```bash
 npm install
+```
 
 3. Execute o projeto:
 ```bash
 node src/heroi.js
-
+```
 
 🛠 Tecnologias Utilizadas
 JavaScript (ES6+)

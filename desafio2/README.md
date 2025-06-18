@@ -43,15 +43,17 @@ desafio2/
 ```bash
 git clone https://github.com/seu-usuario/desafio-felipao2.git
 cd desafio-felipao2
+```
 
 2. Instale as dependências:
 ```bash
 npm install
+```
 
 3. Execute o projeto:
 ```bash
 node src/main.js
-
+```
 
 🛠 Tecnologias Utilizadas
 JavaScript (ES6+)

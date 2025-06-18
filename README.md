@@ -37,7 +37,7 @@ O programa pergunta:
 Em seguida, exibe:
 ```
 O Herói de nome [nome] está no nível [nível].
-
+```
 
 ### 📁 Arquivo principal
 `/src/heroi.js`
@@ -88,10 +88,12 @@ desafio2/
 ```bash
 git clone https://github.com/seu-usuario/desafio-felipao.git
 cd desafio-felipao
+```
 
 2. Instale as dependências:
 ```bash
 npm install
+```
 
 3. Execute o projeto desejado:
 ```bash
@@ -100,7 +102,7 @@ node src/heroi.js
 
 # Projeto 2 - Calculadora de Partidas Rankeadas
 node desafio2/src/main.js
-
+```
 
 💡 Certifique-se de ter o Node.js instalado.
 
