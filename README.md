@@ -4,8 +4,9 @@ Repositório com os desafios práticos propostos pelo instrutor **Felipão**, du
 
 Este repositório contém dois projetos:
 
-1. 🧙‍♂️ Classificador de Nível do Herói (Desafio 1)
-2. ⚔️ Calculadora de Partidas Rankeadas (Desafio 2)
+1. 🧙‍♂️ Classificador de Nível do Herói (Desafio 1);
+2. ⚔️ Calculadora de Partidas Rankeadas (Desafio 2);
+3. 🧠 Classe de Herói com Ataque (Desafio 3).
 
 ---
 
@@ -31,8 +32,8 @@ Criar um programa em JavaScript que classifica o herói com base na quantidade d
 ### 💻 Execução
 
 O programa pergunta:
-- O nome do herói
-- A quantidade de experiência
+- O nome do herói;
+- A quantidade de experiência.
 
 Em seguida, exibe:
 ```
@@ -40,7 +41,7 @@ O Herói de nome [nome] está no nível [nível].
 ```
 
 ### 📁 Arquivo principal
-`/src/heroi.js`
+`/src/main.js`
 
 ---
 
@@ -65,6 +66,7 @@ Criar uma função que recebe a quantidade de **vitórias** e **derrotas** de um
 ### 💡 Funcionalidades
 
 - Uso de **funções separadas** para organização:
+  
   - `calcularRanked()`
   - `obterNivel()`
   - `apresentarHeroi()`
@@ -107,22 +109,106 @@ node desafio2/src/main.js
 💡 Certifique-se de ter o Node.js instalado.
 
 📦 Tecnologias Utilizadas
-JavaScript (ES6+)
 
-Node.js
-
-prompt-sync
+- JavaScript (ES6+)
+- Node.js
+- prompt-sync
 
 📚 Aprendizados
-Entrada de dados via terminal
 
-Condições (if, else)
+- Entrada de dados via terminal;
+- Condições (if, else);
+- Funções e modularização;
+- Organização de projetos com Node.js;
+- Separação de responsabilidades e reutilização de código.
 
-Funções e modularização
 
-Organização de projetos com Node.js
 
-Separação de responsabilidades e reutilização de código
+---
+
+## 🧠 Desafio 3 — Classe de Herói com Ataque
+
+### 🎯 Objetivo
+
+Criar uma classe em JavaScript que representa um herói com propriedades e um método de ataque personalizado com base no tipo.
+
+### 🧾 Descrição
+
+O programa solicita ao usuário:
+
+- O nome do herói
+- A idade do herói
+- O tipo do herói (ex: mago, guerreiro, monge, ninja)
+
+Com base no tipo informado, o herói executa um ataque específico:
+
+| Tipo do Herói | Ataque Utilizado      |
+|---------------|------------------------|
+| mago          | magia                  |
+| guerreiro     | espada                 |
+| monge         | artes marciais         |
+| ninja         | shuriken               |
+
+Exemplo de saída:
+```
+O mago {nome} atacou usando magia!
+```
+
+
+### 📁 Estrutura
+
+desafio3/
+├── node_modules/
+├── src/
+│ ├── heroi.js # Classe Heroi
+│ └── main.js # Código principal do projeto
+├── package.json
+└── README.md
+
+
+---
+
+## ▶️ Como executar os projetos
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/desafio-felipao.git
+cd desafio-felipao
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Execute o projeto desejado:
+```bash
+# Projeto 1 - Classificador de Nível
+node src/main.js
+
+# Projeto 2 - Calculadora de Partidas Rankeadas
+node desafio2/src/main.js
+
+# Projeto 3 - Classe de Herói com Ataque
+node desafio3/src/main.js
+```
+
+💡 Certifique-se de ter o Node.js instalado.
+
+📦 Tecnologias Utilizadas
+
+- JavaScript (ES6+)
+- Node.js
+- prompt-sync
+
+📚 Aprendizados
+
+- Entrada de dados via terminal;
+- Condições (if, else);
+- Classes e métodos;
+- Modularização de código;
+- Organização de projetos com Node.js;
+- Separação de responsabilidades.
 
 🧑‍💻 Autor
 Desenvolvido por Reginaldo Dias

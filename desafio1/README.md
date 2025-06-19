@@ -32,7 +32,7 @@ Ao final da execução, a aplicação exibe a seguinte mensagem:
 desafio-felipao/
 ├── node_modules/
 ├── src/
-│ └── heroi.js # Arquivo principal do projeto
+│ └── main.js # Arquivo principal do projeto
 ├── package.json
 └── README.md
 
@@ -52,26 +52,22 @@ npm install
 
 3. Execute o projeto:
 ```bash
-node src/heroi.js
+node src/main.js
 ```
 
 🛠 Tecnologias Utilizadas
-JavaScript (ES6+)
 
-Node.js
-
-prompt-sync
+- JavaScript (ES6+)
+- Node.js
+- prompt-sync
 
 🧠 Aprendizados
-Uso de variáveis e operadores
 
-Entrada de dados pelo terminal
-
-Conversão de tipos (Number(prompt(...)))
-
-Estruturas condicionais (if, else if, else)
-
-Organização simples de projeto com Node.js
+- Uso de variáveis e operadores;
+- Entrada de dados pelo terminal;
+- Conversão de tipos (Number(prompt(...)));
+- Estruturas condicionais (if, else if, else);
+- Organização simples de projeto com Node.js.
 
 📬 Contato
 Desenvolvido por Reginaldo Dias como parte dos desafios da DIO.

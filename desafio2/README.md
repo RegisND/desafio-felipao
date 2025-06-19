@@ -56,11 +56,10 @@ node src/main.js
 ```
 
 🛠 Tecnologias Utilizadas
-JavaScript (ES6+)
 
-Node.js
-
-prompt-sync
+- JavaScript (ES6+)
+- Node.js
+- prompt-sync
 
 📌 Observações
 As funções foram separadas em um módulo externo (funcoes.js) para promover organização e reutilização de código.

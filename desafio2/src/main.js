@@ -30,9 +30,9 @@ const prompt = require('prompt-sync')();
 const { obterNivel, calcularRanked, apresentarHeroi } =
   require('./funcoes');
 
-const nome = prompt('Informe o nome do seu herói: ')
-const vitorias = Number(prompt('Informe a quantidade de vitórias: '))
-const derrotas = Number(prompt('Informe a quantidade de derrotas: '))
+const nome = prompt('Informe o nome do seu herói: ');
+const vitorias = Number(prompt('Informe a quantidade de vitórias: '));
+const derrotas = Number(prompt('Informe a quantidade de derrotas: '));
 
 const saldoVitorias = calcularRanked(vitorias, derrotas);
 const nivel = obterNivel(saldoVitorias);
