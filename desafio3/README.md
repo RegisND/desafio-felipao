@@ -30,7 +30,7 @@ console.log(`O ${this.tipo} ${this.nome} atacou usando ${ataque}!`)
 ---
 
 ## 🗂 Estrutura do Projeto
-
+```
 desafio3/
 ├── node_modules/
 ├── src/
@@ -38,7 +38,7 @@ desafio3/
 │ └── main.js # Arquivo principal que executa o programa
 ├── package.json
 └── README.md
-
+```
 
 ---
 
