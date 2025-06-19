@@ -74,13 +74,12 @@ Criar uma função que recebe a quantidade de **vitórias** e **derrotas** de um
 - Código modular com separação de arquivos.
 
 ### 📁 Estrutura
-
+```
 desafio2/
 ├── src/
 │ ├── funcoes.js # Funções auxiliares
 │ └── main.js # Arquivo principal do projeto
-
-
+```
 
 ---
 
@@ -156,16 +155,15 @@ O mago {nome} atacou usando magia!
 
 
 ### 📁 Estrutura
-
+```
 desafio3/
 ├── node_modules/
 ├── src/
-│ ├── heroi.js # Classe Heroi
-│ └── main.js # Código principal do projeto
+│   ├── heroi.js       # Classe Heroi
+│   └── main.js        # Código principal do projeto
 ├── package.json
 └── README.md
-
-
+```
 ---
 
 ## ▶️ Como executar os projetos

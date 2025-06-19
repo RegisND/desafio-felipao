@@ -27,7 +27,7 @@ No final, é exibida a seguinte mensagem:
 
 
 ## 🗂 Estrutura do Projeto
-
+```
 desafio2/
 ├── node_modules/
 ├── src/
@@ -35,7 +35,7 @@ desafio2/
 │ └── main.js # Arquivo principal que executa o programa
 ├── package.json
 └── README.md
-
+```
 
 ## 🚀 Como executar
 

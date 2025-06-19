@@ -28,14 +28,14 @@ Ao final da execução, a aplicação exibe a seguinte mensagem:
 
 
 ## 🗂 Estrutura do Projeto
-
+```
 desafio-felipao/
 ├── node_modules/
 ├── src/
 │ └── main.js # Arquivo principal do projeto
 ├── package.json
 └── README.md
-
+```
 
 ## 🚀 Como executar
 
