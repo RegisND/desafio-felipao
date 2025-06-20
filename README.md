@@ -29,6 +29,8 @@ Criar um programa em JavaScript que classifica o herói com base na quantidade d
 | Entre 9001 e 10000          | Imortal      |
 | Acima de 10000              | Radiante     |
 
+---
+
 ### 💻 Execução
 
 Ao executar a aplicação, o programa solicita ao usuário o nome do herói e, em seguida, inicia a sua jornada exibindo a seguinte mensagem:
@@ -134,21 +136,23 @@ node desafio2/src/main.js
 
 💡 Certifique-se de ter o Node.js instalado.
 
-📦 Tecnologias Utilizadas
+---
+
+## 📦 Tecnologias Utilizadas
 
 - JavaScript (ES6+)
 - Node.js
 - prompt-sync
 
-📚 Aprendizados
+---
+
+## 📚 Aprendizados
 
 - Entrada de dados via terminal;
 - Condições (if, else);
 - Funções e modularização;
 - Organização de projetos com Node.js;
 - Separação de responsabilidades e reutilização de código.
-
-
 
 ---
 
@@ -177,9 +181,10 @@ Com base no tipo informado, o herói executa um ataque específico:
 
 Exemplo de saída:
 ```
-O mago {nome} atacou usando magia!
+O [tipo] [nome] atacou usando [ataque]!
 ```
 
+---
 
 ### 📁 Estrutura
 ```
