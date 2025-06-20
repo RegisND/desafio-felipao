@@ -249,4 +249,4 @@ node desafio3/src/main.js
 ## 🧑‍💻 Autor
 
 Desenvolvido por Reginaldo Dias
-GitHub: github.com/RegisND
+GitHub: https://github.com/RegisND
