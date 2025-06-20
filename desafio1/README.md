@@ -2,12 +2,19 @@
 
 Este projeto é o primeiro desafio do bootcamp promovido pela DIO, ministrado pelo instrutor Felipão. O objetivo do desafio é construir uma aplicação simples em JavaScript que utilize estruturas de decisão para classificar um herói com base em sua quantidade de experiência (XP).
 
+---
 
 ## 🧾 Descrição
 
-A aplicação solicita ao usuário:
-- O nome do herói
-- A quantidade de experiência (`XP`)
+Ao executar a aplicação, o programa solicita ao usuário o nome do herói e, em seguida, inicia a sua jornada exibindo a seguinte mensagem:
+```
+Bem-vindo, [nome]! Vamos iniciar a sua jornada.
+```
+
+Após realizar uma batalha, o programa exibe a seguinte mensagem:
+```
+Você enfrentou um desafio! Digite a experiência ganha: 
+```
 
 Com base nessa experiência, o sistema classifica o herói em um dos seguintes níveis:
 
@@ -22,10 +29,18 @@ Com base nessa experiência, o sistema classifica o herói em um dos seguintes n
 | Entre 9001 e 10000          | Imortal      |
 | Acima de 10000              | Radiante     |
 
-Ao final da execução, a aplicação exibe a seguinte mensagem:
+```
+O Herói [nome], agora possui [xp] XP e está no nível [nivel].
 
-"O Herói de nome [nome] está no nível [nível]."
+Deseja continuar a aventura? (s/n): 
+```
 
+O programa continua a execução enquanto sua resposta for positiva e caso seja negativa, o programa finaliza com uma resposta de agradecimento e com o resultado final, conforme abaixo:
+```
+Obrigado por jogar! Seu herói terminou com [xp] XP no nível [nivel].
+```
+
+---
 
 ## 🗂 Estrutura do Projeto
 ```
@@ -36,6 +51,8 @@ desafio-felipao/
 ├── package.json
 └── README.md
 ```
+
+---
 
 ## 🚀 Como executar
 
@@ -55,13 +72,17 @@ npm install
 node src/main.js
 ```
 
-🛠 Tecnologias Utilizadas
+---
+
+## 🛠 Tecnologias Utilizadas
 
 - JavaScript (ES6+)
 - Node.js
 - prompt-sync
 
-🧠 Aprendizados
+---
+
+## 🧠 Aprendizados
 
 - Uso de variáveis e operadores;
 - Entrada de dados pelo terminal;
@@ -69,6 +90,9 @@ node src/main.js
 - Estruturas condicionais (if, else if, else);
 - Organização simples de projeto com Node.js.
 
-📬 Contato
+---
+
+## 📬 Contato
+
 Desenvolvido por Reginaldo Dias como parte dos desafios da DIO.
 GitHub: https://github.com/RegisND

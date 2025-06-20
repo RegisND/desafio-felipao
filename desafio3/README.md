@@ -23,9 +23,8 @@ Com base no tipo informado, o programa exibe o **ataque correspondente**:
 Ao final, o programa imprime a seguinte mensagem:
 
 ```
-console.log(`O ${this.tipo} ${this.nome} atacou usando ${ataque}!`)
+"O [tipo] [nome] atacou usando [ataque]!"
 ```
-
 
 ---
 
@@ -60,13 +59,17 @@ npm install
 node src/main.js
 ```
 
-🛠 Tecnologias Utilizadas
+---
+
+## 🛠 Tecnologias Utilizadas
 
 - JavaScript (ES6+)
 - Node.js
 - prompt-sync
 
-📌 Observações
+---
+
+## 📌 Observações
 
 O tipo do herói digitado pelo usuário é convertido para letras minúsculas automaticamente, garantindo maior flexibilidade de entrada.
 
@@ -74,6 +77,9 @@ O projeto foi estruturado separando a lógica da classe (heroi.js) e a execuçã
 
 Desenvolvido com foco em aprendizado de boas práticas com orientação a objetos e modularização em Node.js.
 
-📬 Contato
+---
+
+## 📬 Contato
+
 Desenvolvido por Reginaldo Dias como parte dos desafios da DIO.
 GitHub: https://github.com/RegisND

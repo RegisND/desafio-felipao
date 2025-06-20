@@ -2,6 +2,8 @@
 
 Este projeto faz parte do segundo desafio proposto no bootcamp da DIO, ministrado pelo instrutor Felipão. O objetivo é desenvolver uma aplicação simples em JavaScript que utilize variáveis, estruturas de decisão, funções e módulos para calcular o nível de um herói com base na quantidade de vitórias e derrotas.
 
+---
+
 ## 🧾 Descrição
 
 A aplicação solicita ao usuário:
@@ -23,8 +25,9 @@ Com base nessas informações, é calculado o saldo de vitórias (vitórias - de
 
 No final, é exibida a seguinte mensagem:
 
-"O Herói de nome [nome] tem saldo de [saldo] vitórias e está no nível [nível]."
+"O herói [nome] tem saldo de [saldo] vitórias e está no nível [nível]."
 
+---
 
 ## 🗂 Estrutura do Projeto
 ```
@@ -36,6 +39,7 @@ desafio2/
 ├── package.json
 └── README.md
 ```
+---
 
 ## 🚀 Como executar
 
@@ -55,17 +59,25 @@ npm install
 node src/main.js
 ```
 
-🛠 Tecnologias Utilizadas
+---
+
+## 🛠 Tecnologias Utilizadas
 
 - JavaScript (ES6+)
 - Node.js
 - prompt-sync
 
-📌 Observações
+---
+
+## 📌 Observações
+
 As funções foram separadas em um módulo externo (funcoes.js) para promover organização e reutilização de código.
 
 O projeto foi desenvolvido com foco em aprendizado e boas práticas de estruturação de pequenos programas em Node.js.
 
-📬 Contato
+---
+
+## 📬 Contato
+
 Desenvolvido por Reginaldo Dias como parte dos desafios da DIO.
 GitHub: https://github.com/RegisND

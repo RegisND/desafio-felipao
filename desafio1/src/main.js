@@ -58,7 +58,7 @@ while (continuar) {
         nivel = "Ferro"
     }
 
-    console.log(`\nHerói ${nome} agora possui ${xp} XP e está no nível ${nivel}.\n`);
+    console.log(`\nO Herói ${nome} agora possui ${xp} XP e está no nível ${nivel}.\n`);
 
     let resposta = prompt("Deseja continuar a aventura? (s/n): ").toLowerCase();
 

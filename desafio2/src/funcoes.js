@@ -14,7 +14,7 @@ function obterNivel(vitorias) {
 
 function apresentarHeroi(nome, resultado, nivel) {
   console.log(
-    `O Herói de nome ${nome} tem saldo de ${resultado} vitórias e está no nível ${nivel}.`
+    `O herói ${nome} tem saldo de ${resultado} vitórias e está no nível ${nivel}.`
   )
 }
 

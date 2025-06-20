@@ -31,14 +31,41 @@ Criar um programa em JavaScript que classifica o herói com base na quantidade d
 
 ### 💻 Execução
 
-O programa pergunta:
-- O nome do herói;
-- A quantidade de experiência.
+Ao executar a aplicação, o programa solicita ao usuário o nome do herói e, em seguida, inicia a sua jornada exibindo a seguinte mensagem:
+```
+Bem-vindo, [nome]! Vamos iniciar a sua jornada.
+```
 
-Em seguida, exibe:
+Após realizar uma batalha, o programa exibe a seguinte mensagem:
 ```
-O Herói de nome [nome] está no nível [nível].
+Você enfrentou um desafio! Digite a experiência ganha: 
 ```
+
+Com base nessa experiência, o sistema classifica o herói em um dos seguintes níveis:
+
+| XP                          | Nível        |
+|-----------------------------|--------------|
+| Até 1000                    | Ferro        |
+| Entre 1001 e 2000           | Bronze       |
+| Entre 2001 e 5000           | Prata        |
+| Entre 5001 e 7000           | Ouro         |
+| Entre 7001 e 8000           | Platina      |
+| Entre 8001 e 9000           | Ascendente   |
+| Entre 9001 e 10000          | Imortal      |
+| Acima de 10000              | Radiante     |
+
+```
+O Herói [nome], agora possui [xp] XP e está no nível [nivel].
+
+Deseja continuar a aventura? (s/n): 
+```
+
+O programa continua a execução enquanto sua resposta for positiva e caso seja negativa, o programa finaliza com uma resposta de agradecimento e com o resultado final, conforme abaixo:
+```
+Obrigado por jogar! Seu herói terminou com [xp] XP no nível [nivel].
+```
+
+---
 
 ### 📁 Arquivo principal
 `/src/main.js`
@@ -193,13 +220,17 @@ node desafio3/src/main.js
 
 💡 Certifique-se de ter o Node.js instalado.
 
-📦 Tecnologias Utilizadas
+---
+
+## 📦 Tecnologias Utilizadas
 
 - JavaScript (ES6+)
 - Node.js
 - prompt-sync
 
-📚 Aprendizados
+---
+
+## 📚 Aprendizados
 
 - Entrada de dados via terminal;
 - Condições (if, else);
@@ -208,6 +239,9 @@ node desafio3/src/main.js
 - Organização de projetos com Node.js;
 - Separação de responsabilidades.
 
-🧑‍💻 Autor
+---
+
+## 🧑‍💻 Autor
+
 Desenvolvido por Reginaldo Dias
 GitHub: github.com/RegisND
